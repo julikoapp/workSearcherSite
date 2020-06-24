@@ -29,11 +29,11 @@ app.get("/contact", function(req, res){
     Worker.find({}, function(err, found){
         if (found.length === 0){
             const worker = new Worker({
-                email:  "yula.barko@gmail.com",
-                name: "Юлия Барко",
-                dateBirth: "03.07.2002",
+                email:  "yula....@gmail.com",
+                name: "Юлия",
+                dateBirth: "07.03.2002",
                 education: "самообразование",
-                about: "Заинтересована в программировании. \n Что я не знаю,  то я могу изучить. "
+                about: "Заинтересована в применении полученных навыков в программировании на практике. \n Что я не знаю,  то я могу изучить. "
             })
             worker.save();
         }
