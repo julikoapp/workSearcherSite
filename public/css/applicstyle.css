@@ -1,0 +1,16 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+table{
+    margin: 1% 10%;
+    border: 3px solid black;
+}
+tr.end-one{
+    padding-bottom: 40px;
+    border: 1px solid black;
+}

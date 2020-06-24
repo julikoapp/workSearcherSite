@@ -1,0 +1,9 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+div.jumbotron{
+    margin:2% 8%;
+}
+button{
+    margin-top: 20px;
+}

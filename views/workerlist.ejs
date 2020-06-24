@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Заявки </title>
+
+        <link rel="stylesheet" type="text/css" href="/css/applicstyle.css">
+        <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Noto+Sans+JP&family=Pacifico&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1>Подали заявки: </h1>
+        <table>
+                <% workerObj.forEach(function(worker){ %>
+            <tr>
+                <td> Email: </td>
+                <td>  <%= worker.email %> </td>
+            </tr>
+            <tr>
+                <td> Имя: </td>
+                <td> <%= worker.name %> </td>
+            </tr>
+            <tr>
+                <td> Дата рождения: </td>
+                <td> <%= worker.dateBirth %> </td>
+            </tr>
+            <tr>
+                <td> Образование: </td>
+                <td> <%= worker.education %> </td>
+            </tr>
+            <tr class="end-one">
+                <td> О себе: </td>
+                <td> <%= worker.about %> </td>
+            </tr>
+            <% }); %>
+        </table>
+    </body>
+</html>

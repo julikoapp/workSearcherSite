@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Content */
+nav {
+    background-color: white;
+}
+div.about-company{
+    padding: 10% 20% ;
+    text-align: center;
+    background: url("../img/4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:white;
+}
+div.feature{
+    background-color: white;
+    padding:  8% 20%;
+    text-align: center;
+}
+
+#reviews {
+    background-color: #eee4e1;
+}
+
+/* TEXT Style */
+h1.about-company{
+    font-family: 'Caveat', cursive;
+    font-size: 4.5rem;
+}
+h4.about-company{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+p.about-company{
+    padding: 10px 130px 0 130px;
+    color:black;
+    font-size: 1.2rem;
+}
+
+h5{
+    font-weight: 600;
+}
+p.feature{
+    line-height: 1.5;
+}
+
+div.reviews-text{
+    text-align: center;
+    padding: 10% 10%;
+    font-size: 2.5rem;;
+}
+p.author{
+    font-size: 1.5rem;
+}
+@media (max-width: 1028px){
+
+}
