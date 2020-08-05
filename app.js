@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine", 'ejs');
 
-mongoose.connect("mongodb://localhost:27017/WorkerApplyDB", {useNewUrlParser:true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://julia-admin:123password@cluster0.htg9l.mongodb.net/WorkerApplyDB?retryWrites=true&w=majority", {useNewUrlParser:true, useUnifiedTopology: true});
 
 const workerSchema = new mongoose.Schema({
     email: String, 
