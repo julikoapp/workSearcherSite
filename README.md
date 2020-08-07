@@ -1,8 +1,6 @@
 # workSearcherSite
 web-app using  NodeJS and MongoDB
 
-В директории, где находятся файлы:
-node app.js
-(+- mongod в отдельном окне)
 
-В браузере перейти на localhost:4090
+![GitHub Logo](/howitlooks/1.png)
+Format: ![Alt Text](url)
